@@ -4854,6 +4854,9 @@ footer .footer-menu .tit svg{
 #kasco_offer-parameters .item-parameters .value{
 	 font-family: 'latobold';
 }
+#kasco .kasco__default .btn-disabled{
+	width:100%
+}
 @media  (max-width: 1220px) {
 	#main.show-search header .header_top{overflow: inherit;}
 	.container{width:calc(100% - 40px)}
