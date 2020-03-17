@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'latobold';
+    src: url('../fonts/Lato/lato-bold-webfont.eot');
+    src: url('../fonts/Lato/lato-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato/lato-bold-webfont.woff2') format('woff2'),
+         url('../fonts/Lato/lato-bold-webfont.woff') format('woff'),
+         url('../fonts/Lato/lato-bold-webfont.ttf') format('truetype'),
+         url('../fonts/Lato/lato-bold-webfont.svg#latobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latoitalic';
+    src: url('../fonts/Lato/lato-italic-webfont.eot');
+    src: url('../fonts/Lato/lato-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato/lato-italic-webfont.woff2') format('woff2'),
+         url('../fonts/Lato/lato-italic-webfont.woff') format('woff'),
+         url('../fonts/Lato/lato-italic-webfont.ttf') format('truetype'),
+         url('../fonts/Lato/lato-italic-webfont.svg#latoitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latolight';
+    src: url('../fonts/Lato/lato-light-webfont.eot');
+    src: url('../fonts/Lato/lato-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato/lato-light-webfont.woff2') format('woff2'),
+         url('../fonts/Lato/lato-light-webfont.woff') format('woff'),
+         url('../fonts/Lato/lato-light-webfont.ttf') format('truetype'),
+         url('../fonts/Lato/lato-light-webfont.svg#latolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/Lato/lato-regular-webfont.eot');
+    src: url('../fonts/Lato/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato/lato-regular-webfont.woff2') format('woff2'),
+         url('../fonts/Lato/lato-regular-webfont.woff') format('woff'),
+         url('../fonts/Lato/lato-regular-webfont.ttf') format('truetype'),
+         url('../fonts/Lato/lato-regular-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
