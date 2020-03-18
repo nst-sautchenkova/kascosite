@@ -324,7 +324,7 @@ button {
 
 #wrapper{
 	background: #F7F8FA;
-	padding-bottom: 130px;
+	padding-bottom: 120px;
 }
 
 a.btn,
@@ -1140,7 +1140,7 @@ header .header_top .contacts{
 
 
 #header_compare{
-	margin-left:40px;
+	margin-left: 50px;
 	position: relative;
 }
 #header_compare .compare_show{
@@ -1275,7 +1275,7 @@ header .header_top .contacts{
     margin-top: 24px;
 }                                 
 header .login{
-    margin-left: 40px;
+    margin-left: 50px;
 }
 #mob_menu{display:none;}
 header .header_bottom{
@@ -2104,6 +2104,12 @@ header .header_bottom{
     color: #0A7E3E;
 }
 #kasco .kasco_item .item-footer .btn-next{
+
+
+
+
+
+
 
     width: 220px;
     padding: 0;
@@ -2948,7 +2954,12 @@ input:not(:placeholder-shown) {}
     margin-left: 8px;
     transform: rotate(90deg);
 }
-.action-banner{}
+.action-banner{
+	margin-bottom:15px;
+}
+.action-banner .bg{
+	position:absolute;
+}
 .action-banner .logo-action{
 	background: linear-gradient(90deg, #1487CF 11.56%, #1487CF 31.84%, #FFD83A 100%);
 	width: 167px;
@@ -2962,12 +2973,14 @@ input:not(:placeholder-shown) {}
 	-webkit-justify-content: center;
 	justify-content: center;
 	border-radius: 0 55px 55px 0;
+	position:relative;
 }
 .action-banner .logo-action span{
     font-size: 35px;
     line-height: 120%;
     color: #fff;
     font-family: 'latobold';
+	position:relative;
 }
 .action-banner .tit{
     font-size: 24px;
@@ -2981,6 +2994,8 @@ input:not(:placeholder-shown) {}
     border-radius: 3px;
     border: 0 !important;
     color: #374656;
+    padding: 14px 19px;
+    letter-spacing: 0.02em;
 }
 
 #kasco_offer .pagination{
@@ -3003,6 +3018,11 @@ input:not(:placeholder-shown) {}
 #kasco_offer .pagination .left-link, #kasco_offer .pagination .right-link{
     letter-spacing: 0.02em;
     text-transform: uppercase;
+    margin-right: 16px;
+}
+#kasco_offer .pagination .right-link{
+    margin-left: 16px;
+    margin-right: 0;
 }
 #kasco_offer .pagination .page-item a{
     padding: 0;
@@ -3051,10 +3071,11 @@ input:not(:placeholder-shown) {}
     width: 276px;
 }
 .make-banner{
-	padding: 40px 16px;
+	padding: 40px 16px 18px;
 	overflow: hidden;
 	background: #F7F8FA;
 	border: 0;
+	height:540px;
 }
 .make-banner:before{
 	content:'';
@@ -3081,7 +3102,7 @@ input:not(:placeholder-shown) {}
 .make-banner h3{
     font-size: 35px;
     line-height: 120%;
-    margin-bottom: 18px;
+    margin-bottom: 8px;
 }
 .make-banner p{
     margin: 0;
@@ -3112,7 +3133,7 @@ input:not(:placeholder-shown) {}
 .make-banner .img-car{
     position: relative;
     left: -16px;
-    margin-top: -45px;
+    margin-top: -55px;
     z-index: 2;
 }
 
@@ -3141,6 +3162,7 @@ input:not(:placeholder-shown) {}
 }
 #useful-articles{
     margin-top: 120px;
+	margin-bottom:-36px
 }
 #useful-articles .filter{
     display: -webkit-flex;
@@ -3174,6 +3196,11 @@ input:not(:placeholder-shown) {}
     display: inline-block;
     width: auto;
 }
+#useful-articles .btn-block .btn{
+	width:150px;
+	height:48px;
+	padding-top: 13px;
+}
 #useful-articles .filter-content{
     margin-top: 24px;
     -webkit-align-items: inherit;
@@ -3188,6 +3215,7 @@ input:not(:placeholder-shown) {}
     display:none;
 }
 #useful-articles[data-filter = all] .filter-content .filter-item{
+
 	display:block;
 }
 #useful-articles .filter-content .filter-item.active{
@@ -3207,7 +3235,8 @@ input:not(:placeholder-shown) {}
 	color: #788392;
 }
 #useful-articles .filter-item p{
-	margin:0
+	margin:0;
+	font-family: 'latobold';
 }
 .banner-video{
 	background: #374656;
@@ -4422,6 +4451,9 @@ footer .footer-head a{
 footer .footer-head a:hover{
 	color:#000
 }
+.request-call{
+	line-height:0;
+}
                                    
 footer .footer-body{
     border-top: 2px solid #E6ECF2;
@@ -4429,12 +4461,15 @@ footer .footer-body{
     padding: 40px 0;
 }
 footer .footer-body .tel{
-
+	text-decoration:none;
     font-size: 35px;
     line-height: 120%;
     color: #374656;
     font-family: 'latobold';
     margin-bottom: 14px;
+	display:inline-block;
+	position: relative;
+    top: -3px;
 }
 footer .footer-body .request-call a{
     font-size: 14px;
@@ -4793,6 +4828,12 @@ footer .footer-menu .tit svg{
 .tit-social-networks, footer .feedback-block p br{
 	display:none;
 }
+footer .tit-social-networks{
+    display: block;
+    font-size: 14px;
+    line-height: 115%;
+    margin: 0 0 8px 16px;
+}
 #navigation.mmore .navigation-menu{
 	
 }
@@ -4854,6 +4895,7 @@ footer .footer-menu .tit svg{
 #kasco_offer-parameters .item-parameters .value{
 	 font-family: 'latobold';
 }
+
 #kasco .kasco__default .btn-disabled{
 	width:100%
 }
@@ -4927,6 +4969,7 @@ footer .footer-menu .tit svg{
 	#polis-banner .polis-banner-2 .bg2 {position: absolute; bottom: -28px; right: 48px;}
 	#polis-banner .polis-banner-2 .bg1{z-index:2}
 	#polis-banner .polis-banner-2 .bg{z-index:1}
+
 	#compare_page{margin-top:56px}
 	.auto-banner2{width:100%; margin-top:56px; padding:40px; height: auto;}
 	.auto-banner2 .r-block{position:relative;    margin: 0 auto;}
@@ -4995,6 +5038,7 @@ footer .footer-menu .tit svg{
 	#apply_page .apply-row .action-tariff h2,#compare_page .compare-tariff .action-block h2{width: 100%; padding: 8px 16px 4px;font-size: 16px;line-height: 115%;}
 	#compare_page .compare-tariff .action-block h2{top:0;}
 	#apply_page .apply-row .action-tariff .date{font-size:14px; padding-left:16px; padding-bottom:8px}
+
 	.auto-banner2{padding:40px 16px;}
 	.auto-banner2 .txt {width: 100%;height: auto;padding-top: 0;}
 	.auto-banner2 h3{font-size:24px;}
@@ -5072,6 +5116,9 @@ footer .footer-menu .tit svg{
 	#polis-banner .polis-banner-2 .bg2 {bottom: -16px; right: 0;}
 	footer .footer-head{border-top:0}
 	
+	footer .tit-social-networks{margin-left:0; margin-bottom:16px; margin-top:32px;}
+	footer .footer-body .tel{margin-bottom:8px;}
+	
 }
 @media (min-width: 1000px) and (orientation: landscape){
   .footer-menu.m_accordion-item{position: relative;}
@@ -5117,6 +5164,7 @@ footer .footer-menu .tit svg{
 	.container { width: calc(100% - 32px);}
 	#faq, #polis-about, #seo-txt{margin-top:56px;}
 	#polis-about .top{margin-bottom: 0;}
+
 	#wrapper{padding-bottom:56px;}
 	
 	
@@ -5332,6 +5380,7 @@ footer .footer-menu .tit svg{
 	#compare_page .compare-item:nth-child(3) .action-block h2{border-left:0;}
 	#wrapper{padding-bottom:56px;}
 	#apply_page, #compare_page{margin-top:24px;}
+	#kasco_offer .pagination .left-link, #kasco_offer .pagination .right-link{margin-left:0; margin-right:0;}
 	
 }
 @media (max-width: 830px) and (orientation: landscape) {
