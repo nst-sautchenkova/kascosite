@@ -4899,6 +4899,9 @@ footer .tit-social-networks{
 #kasco .kasco__default .btn-disabled{
 	width:100%
 }
+.footer-body .feedback-block{
+	display:none;
+}
 @media  (max-width: 1220px) {
 	#main.show-search header .header_top{overflow: inherit;}
 	.container{width:calc(100% - 40px)}
@@ -4990,6 +4993,7 @@ footer .tit-social-networks{
 	
 	header .logo svg{display:none}
 	header .logo .logom{display:block}
+	.show-search header{overflow: inherit;}
 }
 @media  (max-width: 860px) {
 	#kasco_offer-parameters .left-block{position:relative;}
@@ -5118,6 +5122,11 @@ footer .tit-social-networks{
 	
 	footer .tit-social-networks{margin-left:0; margin-bottom:16px; margin-top:32px;}
 	footer .footer-body .tel{margin-bottom:8px;}
+	
+	.footer-body .feedback-block{display:block;}
+	#kasco .kasco_item .form-group{overflow:hidden;}
+	.action-banner .logo-action{overflow:hidden;}
+	.action-banner .logo-action svg{width:100%; height:100%}
 	
 }
 @media (min-width: 1000px) and (orientation: landscape){
@@ -5381,6 +5390,20 @@ footer .tit-social-networks{
 	#wrapper{padding-bottom:56px;}
 	#apply_page, #compare_page{margin-top:24px;}
 	#kasco_offer .pagination .left-link, #kasco_offer .pagination .right-link{margin-left:0; margin-right:0;}
+	.tariff-compare .tooltips{display:none;}
+	#compare-message {position: absolute; width: calc(100% - 32px); left: 16px;}
+	#compare-message .ico{display:none}
+	#compare-message .flex{width:100% ; padding:16px}
+	#compare-message p{font-size:16px; margin-bottom:8px;}
+	#compare-message .go-comparison{font-size: 16px;line-height: 115%;    letter-spacing: 0;}
+	
+	
+	
+	.menu-ico.menu-show{    position: absolute;
+    background: #000;
+    padding: 30px;
+    top: 0;
+    left: 30px;}
 	
 }
 @media (max-width: 830px) and (orientation: landscape) {
@@ -5423,3 +5446,4 @@ footer .tit-social-networks{
 @media (max-width: 330px){
 	.auto-banner2 .bg-mob{bottom:-14px;}
 }
+
