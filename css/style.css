@@ -4923,7 +4923,7 @@ footer .tit-social-networks{
 	#banner h1{margin-bottom:40px;}
 	#banner .step-block{-webkit-flex-wrap: wrap; flex-wrap: wrap;}
 	#banner .step-block .arrow {display:none;}
-	#banner .step-block .item {-webkit-justify-content: center; justify-content: center; width: 50%;  margin-bottom: 26px;}
+	#banner .step-block .item {-webkit-justify-content: flex-start; justify-content: flex-start; width: 50%;  margin-bottom: 26px;}
 	#kasco .kasco_item{margin-top:0}
 	#kasco .container{width:100%}
 	#kasco .kasco__default.kasco_item {padding: 40px 80px;}
@@ -4993,7 +4993,7 @@ footer .tit-social-networks{
 	
 	header .logo svg{display:none}
 	header .logo .logom{display:block}
-	.show-search header{overflow: inherit;}
+	#main.show-search header, #main.ov-hidden header, #main.ov-hidden header .header_top{overflow: inherit;}
 }
 @media  (max-width: 860px) {
 	#kasco_offer-parameters .left-block{position:relative;}
@@ -5398,12 +5398,22 @@ footer .tit-social-networks{
 	#compare-message .go-comparison{font-size: 16px;line-height: 115%;    letter-spacing: 0;}
 	
 	
-	
-	.menu-ico.menu-show{    position: absolute;
-    background: #000;
-    padding: 30px;
-    top: 0;
-    left: 30px;}
+	#adaptive_menu .search{
+		margin-right:50px;
+	}
+	.menu-ico.menu-show, .menu-ico.menu-hide{
+		position: absolute;
+		height: 64px;
+		width: 50px;
+		top: 0;
+		right: 16px;
+		display: -webkit-flex;
+    	display: flex;
+		-webkit-align-items: center;
+		align-items: center;
+		-webkit-justify-content: flex-end;
+		justify-content: flex-end;
+	}
 	
 }
 @media (max-width: 830px) and (orientation: landscape) {
